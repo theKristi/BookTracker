@@ -5,7 +5,11 @@
     function appendToDom(view) {
         $("#bodyContent").empty();
         $("#bodyContent").append(view);
-    
+        let form = $("#bodyContent").find("form");
+        form.removeData('validator');
+        form.removeData('unobtrusiveValidation');
+        $.validator.unobtrusive.parse(form);
+
         setEventHandlers();
     
     }
@@ -83,6 +87,16 @@
                 appendToDom(view);
             }).fail(ajaxFail);
         });
+        $("input:text").off("keyup");
+        $("input:text").on("keyup",
+            function () {
+                let jqval = $(this).valid();
+                if (!jqval)
+                    $(this).addClass("invalid");
+                else
+                    $(this).removeClass("invalid");
+
+            });
 
         function ajaxFail(data) {
             let h = data.statusMessage;
