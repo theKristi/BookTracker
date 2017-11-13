@@ -1,0 +1,24 @@
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.deps.json
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.runtimeconfig.json
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.runtimeconfig.dev.json
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.dll
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.pdb
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.csprojResolveAssemblyReference.cache
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.csproj.CoreCompileInputs.cache
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.AssemblyInfoInputs.cache
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.AssemblyInfo.cs
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.dll
+C:\Users\panhe\Documents\Visual Studio 2017\Projects\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.pdb
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.deps.json
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.runtimeconfig.json
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.runtimeconfig.dev.json
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.dll
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\bin\Debug\netcoreapp2.0\BookTracker.pdb
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.csprojResolveAssemblyReference.cache
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.csproj.CoreCompileInputs.cache
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.AssemblyInfoInputs.cache
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.AssemblyInfo.cs
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.dll
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\BookTracker.pdb
+D:\Kristi\repos\booktrackercore\BookTracker\BookTracker\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
