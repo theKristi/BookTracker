@@ -11,7 +11,7 @@ namespace BookTrackerTests
         public void LibraryReturnsListBookView()
         {
             var mockService = new Mock<IBookService>();
-            mockService.Setup(x=>x.GetAllBooks(It.IsAny))
+            mockService.Setup(x => x.GetAllBooks(It.IsAny));
         }
     }
 }

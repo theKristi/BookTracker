@@ -1,0 +1,16 @@
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\BookTrackerTests.deps.json
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\BookTrackerTests.runtimeconfig.json
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\BookTrackerTests.runtimeconfig.dev.json
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\BookTrackerTests.dll
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\BookTracker.dll
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\BookTracker.pdb
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\obj\Debug\netcoreapp2.0\BookTrackerTests.csprojResolveAssemblyReference.cache
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\obj\Debug\netcoreapp2.0\BookTrackerTests.csproj.CoreCompileInputs.cache
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\obj\Debug\netcoreapp2.0\BookTrackerTests.AssemblyInfoInputs.cache
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\obj\Debug\netcoreapp2.0\BookTrackerTests.AssemblyInfo.cs
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\bin\Debug\netcoreapp2.0\BookTrackerTests.pdb
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\obj\Debug\netcoreapp2.0\BookTrackerTests.dll
+C:\Users\kmarks\repos\BookTracker\XUnitTestProject1\obj\Debug\netcoreapp2.0\BookTrackerTests.pdb
