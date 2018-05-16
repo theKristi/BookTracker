@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\PubTmp\Out\" />
+  <dbfullsql path="D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\PubTmp\EFSQLScripts\BookTracker.Data.BookTrackerContext.sql" />
+</sitemanifest>

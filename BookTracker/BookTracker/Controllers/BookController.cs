@@ -62,6 +62,11 @@ namespace BookTracker.Controllers
             return PartialView(vm);
         }
 
+        public IActionResult EditBook(int id)
+        {
+            var serviceModel = _bookService.GetBook(id, _userManager);
+            return PartialView(new BookVM(serviceModel));
+        }
         private async Task<ApplicationUser> GetUser() {
             var user = await _userManager.GetUserAsync(User);
             return user;

@@ -12,6 +12,7 @@ namespace BookTracker.Services
         IEnumerable<BookServiceModel> GetAllBooks(UserManager<ApplicationUser> userManager);
         BookServiceModel CreateBook(BookServiceModel model);
         BookServiceModel RemoveBook(ApplicationUser owner, BookServiceModel model);
+        BookServiceModel GetBook(int Id, UserManager<ApplicationUser> userManager);
         IEnumerable<BookServiceModel> GetBooksOwnedBy(ApplicationUser owner);
         BookServiceModel CheckOut(ApplicationUser toCheckOut, BookServiceModel model);
         BookServiceModel CheckIn(BookServiceModel book);
@@ -41,6 +42,16 @@ namespace BookTracker.Services
             _repo.SaveChanges();
             return new BookServiceModel(data);
         }
+        public BookServiceModel GetBook(int id, UserManager<ApplicationUser> userManager)
+        {
+            var data = _repo.FindByKey(id);
+            if (data != null) {
+                var book=new BookServiceModel(data);
+                book.Owner = userManager.FindByIdAsync(book.OwnerID).Result;
+                return book;
+            }
+            throw new System.InvalidOperationException(" Book Id was not found.");
+        }
 
         public IEnumerable<BookServiceModel> GetAllBooks(UserManager<ApplicationUser> userManager)
         {
@@ -55,6 +66,11 @@ namespace BookTracker.Services
         public IEnumerable<BookServiceModel> GetBooksOwnedBy(ApplicationUser owner)
         {
            return _repo.All().Where(b => b.OwnerID == owner.Id).ToList().Select(x => new BookServiceModel(x));
+        }
+
+        public BookServiceModel EditBook(int id)
+        {
+            throw new System.NotImplementedException();
         }
 
         public BookServiceModel RemoveBook(ApplicationUser owner, BookServiceModel model)

@@ -11,6 +11,7 @@ namespace BookTracker.Models.ViewModels
         }
         public BookVM(BookServiceModel bookServiceModel)
         {
+            Id = bookServiceModel.BookID;
             ISBN = bookServiceModel.ISBN;
             Title = bookServiceModel.Title;
             Author = bookServiceModel.Author;
@@ -21,7 +22,7 @@ namespace BookTracker.Models.ViewModels
         [Required]
         [StringLength(10, ErrorMessage = "ISBN can only be 10 characters")]
         public string ISBN { get; set; }
-        
+        public int Id { get; set; }
         public string Title { get; set; }
 
         public string Author { get; set; }

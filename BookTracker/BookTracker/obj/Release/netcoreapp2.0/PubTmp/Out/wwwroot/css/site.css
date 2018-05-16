@@ -1,0 +1,172 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+*Table css*/ .table {
+    margin-bottom: 0;
+}
+
+.table-hover {
+    cursor: pointer;
+}
+
+.table tbody > tr > td.nopadding {
+    padding: 0;
+}
+
+    .table thead > tr > th:first-child.nopadding, .table tbody > tr > th:first-child.nopadding, .table tbody > tr > td.nopadding:first-child {
+        padding: 0;
+    }
+
+.table tbody > tr > td, .table tbody > tr > th {
+    border-top: solid 1px transparent;
+}
+
+table thead > tr > th, .table tbody > tr > th, .table tbody > tr > td {
+    vertical-align: middle;
+}
+
+    .table thead > tr > th:first-child, .table tbody > tr > th:first-child, .table tbody > tr > td:first-child {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+.imgTable tbody > tr > td:first-child {
+    padding-right: 0;
+}
+
+th {
+    font-weight: 700;
+}
+
+td {
+    font-weight: 400;
+    color: black;
+}
+
+.highlightRow {
+    border-collapse: separate;
+}
+
+.scrollable tbody, .scrollable thead {
+    display: block;
+}
+
+.scrollable tbody {
+    max-height: calc(100vh - 410px);
+    overflow-y: auto;
+}
+
+.scrollable thead > tr > th {
+    color: #0079c1;
+}
+
+/*End Table css*/
+
+/*Tabs style*/
+
+#tabUI > li {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 0;
+}
+
+    #tabUI > li > a {
+        font-size: 30px;
+        font-weight: 300;
+        color: gray;
+        background-color: rgba(211, 211, 211, .8);
+        border-radius: 18px 18px 0 0;
+    }
+
+    #tabUI > li.active > a {
+        color: #0079c1;
+        font-weight: 400;
+        background-color: rgba(245, 245, 245, .8);
+        border: 0;
+    }
+
+/*End tabs styles*/
+
+/*Selectables*/
+
+.highlight {
+    background-color: black;
+    color: white;
+}
+
+.table tbody > tr.outline > td {
+    border-bottom: 1px solid #0079c1;
+    border-top: solid 1px #0079c1;
+}
+
+tr.outline > td:first-child {
+    border-left: solid 1px #0079c1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.outline > td:last-child {
+    border-right: solid 1px #0079c1;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;
+    cursor: default; /* non-prefixed version, currently not supported by any browser */
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.grayout {
+    opacity: 0.6; /* Real browsers */
+    filter: alpha(opacity = 60); /* MSIE */
+    background: lightgray;
+    text-decoration: line-through;
+}
+
+.invalid {
+    background: red;
+}

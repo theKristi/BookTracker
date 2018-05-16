@@ -1,0 +1,12 @@
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\bin\Release\netcoreapp2.0\BookTracker.deps.json
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\bin\Release\netcoreapp2.0\BookTracker.runtimeconfig.json
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\bin\Release\netcoreapp2.0\BookTracker.runtimeconfig.dev.json
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\bin\Release\netcoreapp2.0\BookTracker.dll
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\bin\Release\netcoreapp2.0\BookTracker.pdb
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\BookTracker.csproj.CoreCompileInputs.cache
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\BookTracker.AssemblyInfoInputs.cache
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\BookTracker.AssemblyInfo.cs
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\BookTracker.dll
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\BookTracker.pdb
+D:\Kristi\repos\BookTracker\BookTracker\BookTracker\obj\Release\netcoreapp2.0\BookTracker.csprojAssemblyReference.cache
